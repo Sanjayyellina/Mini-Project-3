@@ -1,44 +1,41 @@
 # Mini-Project-3
-– How Does Inflation Impact Different Types of Crime?
+
 
 ### 📌 Title and Objective
 
 **Title**: *How Does Inflation Affect Different Types of Crime in Los Angeles?*
 
 **Objective**:
-This project investigates the relationship between inflation and various categories of crime in the city of Los Angeles. The main focus is to determine whether economic stress—measured using the Consumer Price Index (CPI)—leads to increases in certain types of criminal behavior, particularly financially or emotionally driven offenses such as theft, assault, or robbery.
+This project investigates the relationship between inflation and various categories of crime in the city of Los Angeles(only dataset available with large crime data). The main focus is to determine whether economic stress—measured using the Consumer Price Index (CPI)—leads to increases in certain types of criminal behavior, particularly financially or emotionally driven offenses such as theft, assault, or robbery.
 
-Understanding these relationships is critical to advancing the public good. In times of economic hardship, vulnerable communities may become more susceptible to engaging in or becoming victims of crime. Insights from this study can help policymakers, law enforcement, and community organizations develop targeted, data-informed interventions to mitigate crime during inflationary periods. This may include expanding social support, improving economic resilience, or increasing law enforcement presence in high-risk areas.
+Understanding these relationships is critical to advance the public good. In times of economic instability, vulnerable communities may become more susceptible to engage in or becoming victims of crime. Insights from this study can help policymakers, law enforcement, and community organizations to develop  data-informed interventions to reducde crime during inflationary periods. This may include expanding the social support, improving economic resilience, or increasing law enforcement presence at high-risk areas.
 
----
+
 
 ### 📊 Data and Hypothesis Development
 
-#### 1. Data Description
+1. Data Description
 
 This project draws from two key datasets that together represent crime activity in Los Angeles from 2010 through 2023:
 
-* **Crime Dataset 1 (2010–2019)**: Sourced from historical paper records, includes possible transcription errors and missing location data.
-* **Crime Dataset 2 (2020–2023)**: More recent crime incidents, also transcribed from paper documents.
-* **Inflation Data**: Monthly CPI data from the Bureau of Labor Statistics (2010–2017) used as the main economic indicator.
-
+Crime Dataset 1 (2010–2019): Sourced from historical paper records, includes possible transcription errors and missing location data.
+Crime Dataset 2 (2020–2023): More recent crime incidents, also transcribed from paper documents.
+Inflation Data: Monthly CPI data from the Bureau of Labor Statistics (2010–2017) used as the main economic indicator.
 Supplemental data includes population counts, unemployment statistics, and demographic information such as victim age.
-I was drawn to this topic because it felt very real — inflation is something many people worry about, and crime affects communities directly. Combining both gave me a chance to use my skills on something socially relevant. It also helped me strengthen my data cleaning and merging skills since I was working with different formats and time scales.
+
+I was drawn to this topic because it felt very real — inflation is something many people worry about, and crime affects communities directly. Combining these both gave me a chance to use my skills on something socially relevant. It also helped me strengthen my data cleaning and merging skills since I was working with different formats and time scales.
 
 #### 2. Summary Statistics
 
-* **Observations**: 3,117,370
-* **Key Variables**:
+* Observations: 3,117,370
+* Key Variables:
+* CPI: Mean = 240.47 (SD = 9.29)
+* Victim Age: Mean = 30.91 (SD = 21.11)
 
-  * CPI: Mean = 240.47 (SD = 9.29)
-  * Population: Mean = 9,946.72 (SD = 127.29)
-  * Victim Age: Mean = 30.91 (SD = 21.11)
-
-The presence of a minimum victim age of -13 suggests data quality issues, which were cleaned prior to analysis.
 
 #### 3. Crime Type Distribution
 
-The top 15 crime categories accounted for **79.2%** of all reported crimes. Theft and burglary together represented over 60% of this total, with vehicle-related crimes making up a significant portion. Assault-related incidents (including intimate partner violence) and fraud (primarily identity theft) were also prevalent.
+The top 15 crime categories accounted for 79.2% of all reported crimes. Theft and burglary together represented over 60% of this total, with vehicle-related crimes making up a significant portion. Assault-related incidents (including intimate partner violence) and fraud (primarily identity theft) were also prevalent.
 
 This distribution confirmed the need to analyze inflation's impact on different types of crimes individually, especially those involving financial or emotional motivation.
 
