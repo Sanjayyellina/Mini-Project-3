@@ -18,8 +18,8 @@ Understanding these relationships is critical to advance the public good. In tim
 
 This project draws from two key datasets that together represent crime activity in Los Angeles from 2010 through 2023:
 
-Crime Dataset 1 (2010–2019): Sourced from historical paper records, includes possible transcription errors and missing location data.
-Crime Dataset 2 (2020–2023): More recent crime incidents, also transcribed from paper documents.
+Crime Dataset 1 (2010–2019): Sourced from data.gov and some missing data .
+Crime Dataset 2 (2020–2023): sourced from same website data.gov .
 Inflation Data: Monthly CPI data from the Bureau of Labor Statistics (2010–2017) used as the main economic indicator.
 Supplemental data includes population counts, unemployment statistics, and demographic information such as victim age.
 
